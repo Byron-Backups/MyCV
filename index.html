@@ -1,0 +1,124 @@
+<!--Compulsory task 2:
+______________________-->
+
+
+<!--Make an online cv:
+Make a webpage that serves as a personalized cv
+of my work and skills.
+Requirements:
+* Short bio
+* Contact details
+* List of skills
+* Education
+* work experience
+(and anything else i want - it's mine after all)
+-->
+
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My CV</title>
+        <link rel = "stylesheet" type = "text/css" href = "./index.css"/>
+        <!--Import jQuery lib.-->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+        <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+        <!--script for the drop-ddown menu.-->
+        <script>
+            $(function() {
+               $("#accordion").accordion({
+                  collapsible: true
+               });
+            });
+        </script>
+    </head>
+
+    <body>
+
+        <!--Stuff go here.-->   
+        <div>
+
+            <header>
+
+                <h2>Byron Ward</h2>
+                <p>
+                    <!--Contact details-->
+                    smorty42@yahoo.com  -  021 555 7437<br>
+                    __________________________________________________________________________________<br>
+                </p>
+                
+            </header>
+
+            <body id = "divBody">
+
+                <!--Bio
+                Short and sweet, but about me.-->
+                <h3>Project Leader</h3>
+                <p>
+                    A results oriented Team Leader with extensive leadership experience in competitive work and sport.<br>
+                    Quick thinking, decisive and hard working. <br>
+                    Expertise in improving team performance while securing customer loyalty and forging valuable relationships with internal and external partners.
+                </p>
+
+                <!--Skills-->
+                <h3>Core Competencies</h3>
+                <p>
+                    Operations Management_______________________Client Management______________________Logistics Coordination<br>
+                    Strategic Planning________________Creative Thinking____________________Delegating
+                </p>
+
+                <!--Work experience-->
+                <h3>Professional Experience</h3>
+                <p>
+                    <b>Ignite Events Services, SA.</b><br>
+                    2018 - 2020<br>
+                    Events catering and management company.<br>
+                    <br>
+                    <b>Event Manager</b><br>
+                    Managed events and bars across Cape Town, and oversaw tens of staff.<br>
+                    Was responsible for stock taking, organizing staff transportation, financial balancing and customer satisfaction.<br>
+                    Years in the service and catering industry have provided a vast experience of culture and knowledge on a variety<br>
+                    of businesses, and models, as well as human resource management.<br>
+                    <br>
+                    <b>Shaker Barschool and Events, SA.</b><br>
+                    2017 - 2018<br>
+                    International barman training, WSET examinator and events company.<br>
+                    <br>
+                    <b>Bar Manager</b><br>
+                    Qualified in free-pouring, IBC and WSET level 1.<br>
+                    Garnered experience across multiple locations, engaged and built up relations with clients.<br>
+                    Facilitated logistics for equipment and fresh produce.
+                </p>
+
+                <!--Education-->
+                <h3>Education</h3>
+                <p>
+                    <b>Current</b><br>
+                    Studying Web & App development, and Software Engineering through HyperionDev.<br>
+                    Javascript, HTML, SCSS, Python, GitHub.<br>
+                    <br>
+                    <b>Unofficial</b><br>
+                    Years worth of onsite training in financial management, leadership, human resourcing, logistics as well as customer relations.<br>
+                    Experience is the best teacher after all.<br>
+                    Learning apps and short courses are a constant, inlcuding new languages and information on a wide array of subjects.<br>
+                </p>
+
+            </body>
+            
+        </div>
+        
+    </body>
+
+</html>
+
+
+<!--Quote of the day:
+"There are only going to be two shots...
+Me shooting you, and me taking that shot of whiskey."
+- Banjo, Bob's Burgers, Season 1, Episode 9-->
+
+<!--End.-->
